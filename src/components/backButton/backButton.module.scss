@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  text-decoration: none;
+  width: fit-content;
+  border: none;
+  background: none;
+  color: #666;
+  font-size: 18px;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-top: 15px;
+
+  &:hover {
+    cursor: pointer;
+    color: #333232;
+  }
+}
+
+.icon {
+  height: 18px;
+  width: 18px;
+}

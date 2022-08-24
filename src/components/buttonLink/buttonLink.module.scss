@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  text-decoration: none;
+  width: fit-content;
+  margin-bottom: 7px;
+}
+
+.button {
+  border: none;
+  background: none;
+  color: #666;
+  font-size: 1.1rem;
+
+  &:hover {
+    cursor: pointer;
+    color: #333232;
+  }
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+}

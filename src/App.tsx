@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classNames from 'classnames/bind';
+import styles from './App.module.scss';
+import { Routes, Route } from 'react-router-dom';
+import { NavBar } from './components/navBar/navBar';
+import { Home } from './components/home/home';
+import { Blog } from './components/blog/blog';
+import { Resume } from './components/resume/resume';
+import { Contacts } from './components/contacts/contacts';
+import { BottomLine } from './components/bottomLine/bottomLine';
+import { CreatePost } from './components/blog/createPost/createPost';
+
+const cx = classNames.bind(styles);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={cx('app')}>
+      <NavBar />
+      <div className={cx('content')}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="blog/newpost" element={<CreatePost />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="contacts" element={<Contacts />} />
+        </Routes>
+      </div>
+      <BottomLine />
     </div>
   );
 }

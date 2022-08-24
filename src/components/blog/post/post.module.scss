@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #a7f3ce;
+  border: 1px solid lightgray;
+  margin: 10px auto;
+}
+
+.h3 {
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text {
+  margin: 0 10px 10px;
+}
+
+.time {
+  font-size: 14px;
+  margin-left: auto;
+}
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+}
+
+.button {
+  display: flex;
+  text-decoration: none;
+  width: fit-content;
+  border: none;
+  background: none;
+  color: #666;
+  font-size: 15px;
+  padding-left: 8px;
+  padding-top: 15px;
+
+  &:hover {
+    cursor: pointer;
+    color: #333232;
+  }
+}
+
+.icon {
+  height: 18px;
+  width: 18px;
+}

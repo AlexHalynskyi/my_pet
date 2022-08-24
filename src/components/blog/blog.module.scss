@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  margin: 10px auto;
+}
+
+.button {
+  border: 1px solid lightgray;
+  background-color: white;
+  width: 300px;
+
+  &:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+}

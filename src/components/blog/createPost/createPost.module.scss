@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #a7f3ce;
+  border: 1px solid lightgray;
+  gap: 10px;
+  margin: 10px auto;
+}
+
+.h3 {
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.button {
+  border: 1px solid lightgray;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 30%;
+
+  &:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.text-label {
+  vertical-align: top;
+}

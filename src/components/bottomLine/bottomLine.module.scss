@@ -1,0 +1,15 @@
+.wrapper {
+  border: 1px solid lightgray;
+  background-color: #a7f3ce;
+  background-image: linear-gradient(62deg, #a7f3ce 0%, #f1e7f9 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+}
+
+.head {
+  font-family: 'Square Peg', cursive;
+  font-size: 13px;
+  color: #413f3f;
+}

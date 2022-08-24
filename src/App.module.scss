@@ -1,0 +1,17 @@
+.app {
+  font-family: 'Lato', sans-serif;
+  color: #666;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  background-color: #d8e8f7;
+  background-image: linear-gradient(62deg, #d8e8f7 0%, #f1e7f9 100%);
+}
+
+.content {
+  flex: 1;
+}
